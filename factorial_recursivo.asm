@@ -35,7 +35,7 @@ sw                    $ra, 8($sp)
 # caso base
 li                    $t0, 1          # cargo 1 para el beq
 beq                   $a0, $t0, f1   	# si n = 1, caso base
-beq                   $a0, $zero, f1	# si n = 0, expulsa 1
+beq                   $a0, $zero, f1	# si n = 0, caso base
 
 
 # no estamos en caso base
